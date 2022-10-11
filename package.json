@@ -1,0 +1,28 @@
+{
+  "name": "playwright-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "serve sample-html -p 53000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetanaTech/playwright-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetanaTech/playwright-sample/issues"
+  },
+  "homepage": "https://github.com/BetanaTech/playwright-sample#readme",
+  "dependencies": {
+    "create-playwright": "^1.17.120",
+    "playwright": "^1.27.0",
+    "serve": "^14.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.27.0",
+    "@types/node": "^18.8.3"
+  }
+}
